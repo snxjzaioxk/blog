@@ -1,4 +1,4 @@
-## Hi there 👋
+## Hi there  这是一个关于我的个人博客 👋
 
 <!--
 **snxjzaioxk/snxjzaioxk** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
