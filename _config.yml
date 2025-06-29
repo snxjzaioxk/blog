@@ -18,14 +18,14 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: Aliom个人博客
+title:  “Aliom个人博客”
 email: 3442803364@qq.com
-description: >- # 这是我的个人博客
+description: “这是我的个人博客”
   Write an awesome description for your new site here. You can edit this
   line in _config.yml. It will appear in your document head meta (for
   Google search results) and in your feed.xml site description.
 baseurl: "" # https://github.com/snxjzaioxk/blog
-url: "" # the base hostname & protocol for your site, e.g. https://bailanwa.dpdns.rog
+url: "https://bailanwa.dpdns.org" # the base hostname & protocol for your site
 github_username: snxjzaioxk
 
 # Build settings
