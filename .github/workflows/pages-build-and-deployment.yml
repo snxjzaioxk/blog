@@ -32,7 +32,7 @@ jobs:
       - name: Setup Ruby
         uses: ruby/setup-ruby@v1
         with:
-          ruby-version: '3.1' # 可以根据你的本地 Ruby 版本调整，或者保持 3.1
+          ruby-version: '3.2' # 可以根据你的本地 Ruby 版本调整，或者保持 3.1
           bundler-cache: true # runs 'bundle install' and caches installed gems automatically
       - name: Setup Pages
         id: pages
