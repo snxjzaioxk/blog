@@ -1,0 +1,31 @@
+title: "Aliom个人博客"
+email: 3442803364@qq.com
+description: "这是我的个人博客"
+
+baseurl: ""
+url: "https://bailanwa.dpdns.org"
+github_username: snxjzaioxx
+
+# 主题设置 - 这是关键
+theme: minima
+
+markdown: kramdown
+highlighter: rouge
+permalink: pretty
+
+plugins:
+  - jekyll-feed
+
+encoding: utf-8
+
+exclude:
+  - .sass-cache/
+  - .jekyll-cache/
+  - gemfiles/
+  - Gemfile
+  - Gemfile.lock
+  - node_modules/
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
