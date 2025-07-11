@@ -32,15 +32,17 @@ permalink: /daily-life/ # 可选：这将使页面的 URL 变为 http://你的�
 
 ## 一些照片
 
-[这是一个照片]( {{ "/assets/images/image5.png" | relative_url }} )
+[骑行]( {{ "/assets/images/image1.png" | relative_url }} )
 
-[这是一个照片]( {{ "/assets/images/image4.png" | relative_url }} )
+[那一晚，喷泉很美]( {{ "/assets/images/image2.png" | relative_url }} )
 
-[这是一个照片]( {{ "/assets/images/image3.png" | relative_url }} )
+[彩烟气球的热烈狂欢]( {{ "/assets/images/image3.png" | relative_url }} )
+
+[湖畔落日晚霞]( {{ "/assets/images/image4.png" | relative_url }} )
 
 [这是一个照片]( {{ "/assets/images/image2.png" | relative_url }} )
 
-[这是一个照片]( {{ "/assets/images/image1.png" | relative_url }} )
+
 
 
 
