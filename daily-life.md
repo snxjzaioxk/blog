@@ -40,8 +40,6 @@ permalink: /daily-life/ # 可选：这将使页面的 URL 变为 http://你的�
 
 [湖畔落日晚霞]( {{ "/assets/images/image4.png" | relative_url }} )
 
-[这是一个照片]( {{ "/assets/images/image2.png" | relative_url }} )
-
 
 
 
