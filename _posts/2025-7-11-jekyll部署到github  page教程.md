@@ -4,7 +4,7 @@
 
 ## 创建github page仓库
 
-<img src="C:\Users\Aliom\snxjzaioxk.github.io\assets\images\12.png" alt="image-20250711161445547" style="zoom:67%;" />
+<img src="C:\Users\Aliom\snxjzaioxk.github.io\assets\images\12.png"  style="zoom:67%;" />
 
 
 
