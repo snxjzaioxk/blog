@@ -4,9 +4,7 @@
 
 ## 创建github page仓库
 
-<img src="C:\Users\Aliom\snxjzaioxk.github.io\assets\images\12.png"  style="zoom:67%;" />
-
-
+![这是一个截图，用来解释说明的]( {{ "/assets/images/image12.png" | relative_url }} )
 
 默认是public，这个不需要更改，接下来添加一个README file（在里面添加自定义域名），
 
