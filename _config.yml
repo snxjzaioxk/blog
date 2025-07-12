@@ -30,4 +30,8 @@ exclude:
   - vendor/gems/
   - vendor/ruby/
 
-  
+collections:
+  tutorials:  # 集合名称
+    output: true
+    permalink: /:collection/:path/
+    sort_by: lesson
