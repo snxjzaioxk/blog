@@ -1,4 +1,5 @@
 ---
+layout: post
 title: "c语言笔记"
 lesson: 1
 category: c

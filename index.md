@@ -1,5 +1,5 @@
 ---
-layout: home # 或者 default
+layout: home
 title: 主页
 ---
 
