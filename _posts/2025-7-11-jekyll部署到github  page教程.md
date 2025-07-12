@@ -94,3 +94,19 @@ git config --global --unset https.proxy
 ```
 
 它们的作用是移除 Git 的全局 HTTP 和 HTTPS 代理配置，让 Git 直接尝试连接远程服务器
+
+
+
+有时候取消代理设置仍然会出现报错，这时可以通过设置系统代理来解决。具体步骤如下：
+
+在代理服务器中，将端口设置为7890，在终端输入以下命令，设置 Git 使用本地代理
+
+```text
+git config --global http.proxy http://127.0.0.1:7890
+```
+
+设置完成后，可以通过以下命令检验是否设置成功：
+
+```text
+git config --global -l
+```
