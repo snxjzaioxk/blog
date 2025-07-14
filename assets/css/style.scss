@@ -1,0 +1,47 @@
+---
+---
+
+@import "minima";
+
+// ===== 移动端点击修复 =====
+a, .post-link {
+  -webkit-tap-highlight-color: transparent;
+  touch-action: manipulation;
+  position: relative;
+  z-index: 1;
+}
+
+.post-list > li {
+  padding: 10px 0;
+  
+  // 增加可点击区域
+  &::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 0;
+  }
+}
+
+.post-link {
+  padding: 8px 0;
+  position: relative; // 确保在伪元素上方
+  z-index: 2;
+}
+
+// ===== 额外移动端优化 =====
+@media (max-width: 600px) {
+  // 增大触摸目标
+  a, button {
+    min-height: 44px; // Apple推荐的最小触摸尺寸
+    min-width: 44px;
+  }
+  
+  // 确保链接可点击
+  .post-link {
+    padding: 15px 0;
+  }
+}
