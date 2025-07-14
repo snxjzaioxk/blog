@@ -1,0 +1,17 @@
+# 强制识别文件类型
+*.js linguist-language=JavaScript
+*.html linguist-language=HTML
+
+# 忽略生成文件和目录
+dist/* linguist-vendored
+
+# 忽略文档
+*.md linguist-documentation
+docs/ linguist-documentation
+
+# 忽略图片文件
+*.png linguist-detectable=false
+*.jpg linguist-detectable=false
+*.jpeg linguist-detectable=false
+*.gif linguist-detectable=false
+*.svg linguist-detectable=false
