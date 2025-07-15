@@ -239,9 +239,7 @@ tutorials.md文件示例
 ```
 
 {% assign categories = site.tutorials | map: "category" | uniq %}
-
 {% for cat in categories %}
-
   <h2>{{ cat | capitalize }}</h2>
   <ul>
     {% assign sorted = site.tutorials | where: "category", cat | sort: "lesson" %}
@@ -251,7 +249,6 @@ tutorials.md文件示例
       </li>
     {% endfor %}
   </ul>
-
 {% endfor %}
 
 ```
