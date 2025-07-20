@@ -5,13 +5,15 @@
 # 忽略生成文件和目录
 dist/* linguist-vendored
 
-# 忽略文档
-*.md linguist-documentation
-docs/ linguist-documentation
-
-# 忽略图片文件
+# 忽略图片文件（通常这些文件不应该计入代码语言统计）
 *.png linguist-detectable=false
 *.jpg linguist-detectable=false
 *.jpeg linguist-detectable=false
 *.gif linguist-detectable=false
 *.svg linguist-detectable=false
+
+# 移除对所有 .md 文件的 linguist-documentation 标记
+# 这将允许你的 Markdown 文件计入语言统计。
+# 如果你有一些纯粹的文档（例如，在 docs/ 文件夹中），
+# 而你想将它们排除，你可以单独指定：
+# docs/*.md linguist-documentation
