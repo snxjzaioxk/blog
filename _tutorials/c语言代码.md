@@ -177,3 +177,33 @@ int main(){
 //     return 0;s
 ```
 
+# for循环
+
+```
+// #include<stdio.h>
+// int main(){
+//     int n;
+//     int fac = 1;
+//     scanf("%d",&n);
+//     for(int i = 1; i <= n; i++){
+//     fac*=i;
+//     }
+//     printf("%d的阶乘为%d\n",n,fac);
+//     return 0;
+// }
+
+
+////优化 使用i-- 省略一个变量
+// #include<stdio.h>
+// int main(){
+//     int fac = 1;
+//     int n = 0;
+//     scanf("%d", &n);
+//     for(n;n>1;n--){
+//         fac *= n;
+//     }
+//     printf("%d\n",fac);
+//     return 0;
+// }
+```
+
