@@ -2,7 +2,7 @@
 layout: post
 title: "科目三流程"
 lesson: 1
-category: road Driving Skings Test
+category: 科目三
 ---
 
 ## 上车准备
