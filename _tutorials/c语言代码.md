@@ -141,3 +141,39 @@ int main(){
 }
 ```
 
+# 整数逆序
+
+```
+
+// //逆序输入 如果末尾为0 也输出
+// #include<stdio.h>
+// int main(){
+//     int x,digit;
+//     int ret = 0;
+//     scanf("%d",&x);
+//     while(x > 0){
+//         digit=x%10;//取最后一位数字
+//         printf("%d",digit);//输出最后一位
+//         ret =ret*10 + digit;//累加最后一位数字
+//         x/=10;//去掉最后一位
+//     }
+//     return 0;
+// }
+
+
+
+// // 逆序输入 如果末尾为0 不输出
+// #include<stdio.h>
+// int main(){
+//     int x,digit;
+//     int ret = 0;
+//     scanf("%d",&x);
+//     while(x > 0){
+//         digit = x%10;
+//         ret = ret*10 +digit;
+//         x/=10;
+//     }
+//     printf("%d",ret);
+//     return 0;s
+```
+
