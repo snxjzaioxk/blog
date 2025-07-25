@@ -207,3 +207,92 @@ int main(){
 // }
 ```
 
+# 素数的判断
+
+```
+#include<stdio.h>
+int main(){
+    int x;
+    scanf("%d",&x);
+    int is_prime = 1;//判断x为素数
+
+    for(int i = 2;i < x;i++){
+        if(x % i == 0){
+            is_prime = 0;//x不是素数
+            break;
+        }
+    }
+    if(is_prime == 0)
+    printf("%d不是素数\n",x);
+    else
+    printf("%d是素数\n",x);
+    return 0;
+}
+```
+
+## 0-100之间素数的判断
+
+三种思路
+
+```
+// #include<stdio.h>
+// int main(){
+//     for(int i = 2;i < 100;i++){
+//         for(int j=2;j<100;j++){
+//             if(i % j == 0 && j != i){
+//                 break; // 如果有除1和自身以外的因子，则不是素数
+//             }
+//             if(j == i - 1){ // 如果循环到i-1且没有break，说明i是素数
+//                 printf("%d是素数\n", i);
+//             }
+//         }
+//     }
+//     return 0;
+// }
+
+
+
+// #include<stdio.h>
+// is_prime(int x){
+//     int is_prime = 1; // 判断x为素数
+//     for(int i = 2; i < x; i++){
+//         if(x % i == 0){
+//             is_prime = 0; // x不是素数
+//             break;
+//         }
+//     }
+//     return is_prime;
+// }
+// int main(){
+//     for(int i = 2;i < 100;i++){
+//         if(is_prime(i)){
+//             printf("%d是素数\n", i);
+//         } else {
+//             printf("%d不是素数\n", i);
+//         }
+//     }
+//     return 0;
+// }
+
+
+
+// #include <stdio.h>
+// int main(){
+//     for(int i = 2; i < 100; i++){
+//         int is_prime = 1; // 假设i是素数
+//         for(int j = 2; j * j <= i; j++){ // 优化：只需检查到sqrt(i)
+//             if(i % j == 0){
+//                 is_prime = 0; // 如果有因子，则不是素数
+//                 break;
+//             }
+//         }
+//         if(is_prime){
+//             printf("%d是素数\n", i);
+//         }
+//     }
+//     return 0;
+// }
+```
+
+
+
