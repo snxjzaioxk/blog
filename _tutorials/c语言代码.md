@@ -1,8 +1,8 @@
 ---
 layout: post
-title: "代码"
-lesson: 2
-category: c
+title: "c代码"
+lesson: 1
+category: 代码
 ---
 
 # 输出a++和++a

@@ -1,8 +1,8 @@
 ---
 layout: post
-title: "c语言笔记"
+title: "c语言"
 lesson: 1
-category: c
+category: 笔记
 ---
 
 # c语言笔记
