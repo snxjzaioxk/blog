@@ -1,23 +1,39 @@
+# 网站基本信息
 title: "Aliom个人博客"
 email: 3442803364@qq.com
 description: "这是我的个人博客"
-
-baseurl: ""
-url: "https://bailanwa.dpdns.org"
+author: snxjzaioxk # 建议增加一个 author 字段
 github_username: snxjzaioxk
 
-# 主题设置 - 这是关键
-theme: minima
+# 构建设置
+baseurl: "" # 如果你的网站部署在子目录，例如 /blog/，则需要填写 "/blog"
+url: "https://bailanwa.dpdns.org" # 你的网站最终域名
 
 markdown: kramdown
 highlighter: rouge
 permalink: pretty
-
-plugins:
-  - jekyll-feed
-
 encoding: utf-8
 
+# --- 主题设置 ---
+# 使用 GitHub 上的远程主题 cayman
+remote_theme: pages-themes/cayman@v0.2.0
+
+# --- 插件列表 ---
+# 将所有插件合并到一个列表里
+plugins:
+  - jekyll-feed
+  - jekyll-remote-theme # 使用 remote_theme 必须启用此插件
+
+# 集合 (Collections)
+# 这个设置是正确的，用于创建除了 "posts" 之外的新内容类型，比如教程系列
+collections:
+  tutorials:
+    output: true
+    permalink: /:collection/:path/
+    sort_by: lesson
+
+# 排除文件
+# 这个列表是标准的，保持即可
 exclude:
   - .sass-cache/
   - .jekyll-cache/
@@ -29,12 +45,3 @@ exclude:
   - vendor/cache/
   - vendor/gems/
   - vendor/ruby/
-
-collections:
-  tutorials:  # 集合名称
-    output: true
-    permalink: /:collection/:path/
-    sort_by: lesson
-remote_theme: pages-themes/cayman@v0.2.0
-plugins:
-- jekyll-remote-theme # add this line to the plugins list if you already have one
